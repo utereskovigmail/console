@@ -1,0 +1,14 @@
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/bin/Debug/net9.0/сlient
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/bin/Debug/net9.0/сlient.deps.json
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/bin/Debug/net9.0/сlient.runtimeconfig.json
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/bin/Debug/net9.0/сlient.dll
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/bin/Debug/net9.0/сlient.pdb
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/obj/Debug/net9.0/сlient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/obj/Debug/net9.0/сlient.AssemblyInfoInputs.cache
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/obj/Debug/net9.0/сlient.AssemblyInfo.cs
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/obj/Debug/net9.0/сlient.csproj.CoreCompileInputs.cache
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/obj/Debug/net9.0/сlient.dll
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/obj/Debug/net9.0/refint/сlient.dll
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/obj/Debug/net9.0/сlient.pdb
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/obj/Debug/net9.0/сlient.genruntimeconfig.cache
+/Users/utereskovygmail.com/RiderProjects/SP/console/сlient/obj/Debug/net9.0/ref/сlient.dll

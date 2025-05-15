@@ -1,0 +1,14 @@
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/bin/Debug/net9.0/console
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/bin/Debug/net9.0/console.deps.json
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/bin/Debug/net9.0/console.runtimeconfig.json
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/bin/Debug/net9.0/console.dll
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/bin/Debug/net9.0/console.pdb
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/obj/Debug/net9.0/console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/obj/Debug/net9.0/console.AssemblyInfoInputs.cache
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/obj/Debug/net9.0/console.AssemblyInfo.cs
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/obj/Debug/net9.0/console.csproj.CoreCompileInputs.cache
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/obj/Debug/net9.0/console.dll
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/obj/Debug/net9.0/refint/console.dll
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/obj/Debug/net9.0/console.pdb
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/obj/Debug/net9.0/console.genruntimeconfig.cache
+/Users/utereskovygmail.com/RiderProjects/SP/console/console/obj/Debug/net9.0/ref/console.dll

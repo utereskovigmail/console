@@ -21,12 +21,41 @@ int sizeBytes = client.Receive(buffer);
 
 var text = Encoding.ASCII.GetString(buffer, 0, sizeBytes);
 
-Console.WriteLine("Received" + text);
 
-string send = "Thanks buddy";
-client.Send(Encoding.ASCII.GetBytes(send));
 
-Console.WriteLine("Sent " + send);
+//1
+// DateTime start = DateTime.Now;
+// Console.WriteLine(start.ToString("HH:mm") + " from - " + client.RemoteEndPoint.ToString() + ". Recieved a message - " + text);
+//
+// string send = "Thanks buddy";
+// client.Send(Encoding.ASCII.GetBytes(send));
+//
+// // Console.WriteLine("Sent " + send);
+//
+// client.Shutdown(SocketShutdown.Both);
+// client.Close();
 
-client.Shutdown(SocketShutdown.Both);
+
+
+
+//2
+
+if (text == "date")
+{
+    DateTime date = DateTime.Now;
+    client.Send(Encoding.ASCII.GetBytes(DateTime.Now.ToShortDateString()));
+}
+else if (text == "time")
+{
+    client.Send(Encoding.ASCII.GetBytes(DateTime.Now.ToShortTimeString()));
+}
+else
+{
+    Console.WriteLine("error");
+    client.Send(Encoding.ASCII.GetBytes("Incorrect data"));
+}
+
+
+server.Shutdown(SocketShutdown.Both);
+server.Close();
 client.Close();

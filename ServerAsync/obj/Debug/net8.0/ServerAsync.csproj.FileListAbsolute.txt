@@ -1,0 +1,15 @@
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/ServerAsync.GeneratedMSBuildEditorConfig.editorconfig
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/ServerAsync.AssemblyInfoInputs.cache
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/ServerAsync.AssemblyInfo.cs
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/ServerAsync.csproj.CoreCompileInputs.cache
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/ServerAsync.sourcelink.json
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/bin/Debug/net8.0/ServerAsync
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/bin/Debug/net8.0/ServerAsync.deps.json
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/bin/Debug/net8.0/ServerAsync.runtimeconfig.json
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/bin/Debug/net8.0/ServerAsync.dll
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/bin/Debug/net8.0/ServerAsync.pdb
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/ServerAsync.dll
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/refint/ServerAsync.dll
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/ServerAsync.pdb
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/ServerAsync.genruntimeconfig.cache
+/Users/utereskovygmail.com/RiderProjects/SP/console/ServerAsync/obj/Debug/net8.0/ref/ServerAsync.dll

@@ -11,15 +11,17 @@ server.Listen(10);
 
 Console.WriteLine("Server started");
 
-Socket client = server.Accept();
+while (true)
+{
+    Socket client = await server.AcceptAsync();
+    // HandleClientAsync1(client);//1
+    HandleClientAsync2(client);//2
+}
 
-Console.WriteLine("Client connected");
-
-var buffer = new byte[1024];
-int sizeBytes = client.Receive(buffer);
 
 
-var text = Encoding.ASCII.GetString(buffer, 0, sizeBytes);
+
+
 
 
 
@@ -40,22 +42,59 @@ var text = Encoding.ASCII.GetString(buffer, 0, sizeBytes);
 
 //2
 
-if (text == "date")
-{
-    DateTime date = DateTime.Now;
-    client.Send(Encoding.ASCII.GetBytes(DateTime.Now.ToShortDateString()));
-}
-else if (text == "time")
-{
-    client.Send(Encoding.ASCII.GetBytes(DateTime.Now.ToShortTimeString()));
-}
-else
-{
-    Console.WriteLine("error");
-    client.Send(Encoding.ASCII.GetBytes("Incorrect data"));
-}
 
 
-server.Shutdown(SocketShutdown.Both);
-server.Close();
-client.Close();
+
+
+
+
+async Task HandleClientAsync1(Socket sock)
+{
+    Console.WriteLine("Client connected");
+
+    var buffer = new byte[1024];
+    int sizeBytes = sock.Receive(buffer);
+    
+    var text = Encoding.ASCII.GetString(buffer, 0, sizeBytes);
+    
+    DateTime start = DateTime.Now;
+    Console.WriteLine(start.ToString("HH:mm") + " from - " + sock.RemoteEndPoint.ToString() + ". Recieved a message - " + text);
+
+    string send = "Thanks buddy";
+    sock.Send(Encoding.ASCII.GetBytes(send));
+
+    // Console.WriteLine("Sent " + send);
+
+    sock.Shutdown(SocketShutdown.Both);
+    sock.Close();
+}
+
+async Task HandleClientAsync2(Socket sock)
+{
+    Console.WriteLine("Client connected");
+
+    var buffer = new byte[1024];
+    int sizeBytes = sock.Receive(buffer);
+    
+    var text = Encoding.ASCII.GetString(buffer, 0, sizeBytes);
+    
+    if (text == "date")
+    {
+        DateTime date = DateTime.Now;
+        sock.Send(Encoding.ASCII.GetBytes(DateTime.Now.ToShortDateString()));
+    }
+    else if (text == "time")
+    {
+        sock.Send(Encoding.ASCII.GetBytes(DateTime.Now.ToShortTimeString()));
+    }
+    else
+    {
+        Console.WriteLine("error");
+        sock.Send(Encoding.ASCII.GetBytes("Incorrect data"));
+    }
+
+
+    server.Shutdown(SocketShutdown.Both);
+    server.Close();
+    sock.Close();
+}
